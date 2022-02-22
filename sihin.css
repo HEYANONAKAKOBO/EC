@@ -1,0 +1,210 @@
+.body {
+    text-align: center
+}
+
+.h  {
+    text-align:left ;
+    width: 20%;
+}
+ul li {
+      
+    display: inline-block;
+    padding: 15px 100px 20px 2px;
+ 
+
+  }
+
+  .sp ul li {
+    
+    display: inline-block;
+    padding: 1px 0.5% 1px 1px;
+
+  
+  }
+
+  .sp ul li p {
+      font-size: 200%;
+  }
+.pc ul li a {
+  font-size: 2vw;
+}
+.sp ul li a {
+  font-size: 1vw;
+}
+
+    /*PCとスマホ版の切り替えるPG*/
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+ 
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 1760px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+/*ここまで*/
+header {
+
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    background-size: 100%;
+    
+}
+.menu a:hover {
+    color: white;
+    
+}  
+
+.menu a {
+  color: rgb(255, 196, 0);
+  text-decoration:none; 
+}
+
+
+<!--ディゾルブでの商品紹介写真欄-->
+
+.slider_fade {
+    position: relative;
+    
+}
+
+.slider_fade img {
+    width: 50%;
+    margin: auto;
+    display:block;
+}
+.slider_fade > li {
+    position: absolute;
+    list-style: none;
+    visibility: hidden;
+    animation: anime_slider_fade 12s 0s infinite;
+}
+.slider_fade > li:nth-of-type(2) {
+    animation-delay: 4s;
+}
+.slider_fade > li:nth-of-type(3) {
+    animation-delay: 8s;
+}
+ 
+@keyframes anime_slider_fade {
+    0% {
+        visibility: visible;
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+    }
+    48.3% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.osirase img {
+    text-align: left;
+    width: 30%;
+}
+
+
+.pc .o .osirasebox {
+    margin: auto;
+    width: 70%;                /* 横幅を200pxに指定 */
+    height: 100px;               /* 横幅を200pxに指定 */
+    border: 1px solid rgb(255, 208, 0);      /* わかりやすくボーダーを引く */
+    overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  }
+  .sp .o .osirasebox {
+    margin: auto;
+    width: 100%;                /* 横幅を200pxに指定 */
+    height: 100px;               /* 横幅を200pxに指定 */
+    border: 1px solid rgb(255, 208, 0);      /* わかりやすくボーダーを引く */
+    overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  }
+
+ 
+
+.sp .slider_fade img {
+    width: 100%;
+    margin:0 auto;
+    display:block;
+}
+
+ .sin {
+     padding: 0%;
+ }
+ 
+
+  ul {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .sin a img {
+      width: 95%;
+      margin: 10px;
+  }
+
+
+  .te {
+      text-align: center;  }
+
+.kaigyou img {
+    width: 50%;
+}
+
+.box1 {
+   text-align: center;
+    border: 5px solid rgb(255, 208, 0); 
+ width: 20%;
+ height: 15%;
+ margin: 1px;
+ padding: 0%
+
+}
+.box1 img {
+    width: 100%;
+}
+ul {
+     padding: 0%
+}
+
+
+.kaigyou0 img {
+    width: 5%;
+}
+
+
+.sp img {
+    width: 100%;
+}
+
+
+.sp .kaigyou img {
+    width: 70%;
+}
+
+
+.sp .osirase img {
+    text-align: left;
+    width: 50%;
+}
+
+
+.koumoku {
+    text-align: center;
+    font-size: 150%;
+}
+
+
+.sp .osirase img {
+    text-align: left;
+    width: 25%;
+}

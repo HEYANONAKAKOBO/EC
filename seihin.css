@@ -152,7 +152,9 @@ header {
       margin: 10px;
   }
 
-
+.syasin {
+    display: flex;
+}
   .te {
       text-align: center;  }
 
@@ -161,6 +163,7 @@ header {
 }
 
 .box1 {
+    
    text-align: center;
     border: 5px solid rgb(255, 208, 0); 
  width: 20%;

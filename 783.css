@@ -9,7 +9,7 @@
 ul li {
       
     display: inline-block;
-    padding: 5px 100px 10px 2px;
+    padding: 15px 100px 20px 2px;
  
 
   }
@@ -26,7 +26,7 @@ ul li {
       font-size: 200%;
   }
 .pc ul li a {
-  font-size: 1vw;
+  font-size: 2vw;
 }
 .sp ul li a {
   font-size: 1vw;
@@ -70,7 +70,7 @@ header {
 }
 
 .slider_fade img {
-    width: 100%;
+    width: 50%;
     margin: auto;
     display:block;
 }
@@ -113,13 +113,22 @@ header {
 }
 
 
+.pc .o .osirasebox {
+    margin: auto;
+    width: 70%;                /* 横幅を200pxに指定 */
+    height: 100px;               /* 横幅を200pxに指定 */
+    border: 1px solid rgb(255, 208, 0);      /* わかりやすくボーダーを引く */
+    overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  }
+  .sp .o .osirasebox {
+    margin: auto;
+    width: 100%;                /* 横幅を200pxに指定 */
+    height: 100px;               /* 横幅を200pxに指定 */
+    border: 1px solid rgb(255, 208, 0);      /* わかりやすくボーダーを引く */
+    overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  }
 
-
-  .pc .slider_fade img {
-    width: 100%;
-    margin:0 auto;
-    display:block;
-}
+ 
 
 .sp .slider_fade img {
     width: 100%;
@@ -143,7 +152,9 @@ header {
       margin: 10px;
   }
 
-
+.syasin {
+    display: flex;
+}
   .te {
       text-align: center;  }
 
@@ -152,6 +163,7 @@ header {
 }
 
 .box1 {
+    
    text-align: center;
     border: 5px solid rgb(255, 208, 0); 
  width: 20%;
@@ -195,305 +207,7 @@ ul {
 }
 
 
-.pc img {
-    margin: 0px 200px;           /* 上下 左右 */
-    width: 30%;
-    padding-left: auto;
-    height: 30%;
-}
-.pc .mei p {
-
-    font-size: 30px;
-}
-
- .syouhin {
-    display: flex;
-    
-    
-  }
-
-/* .pc .syouhin .mei p {
-      font-size: 300%;
-  } */
-  .kakaku {
-      font-size: 10px;
-      color: red;
-      text-align: right;
-  }
-
-.box2 {
-    text-align: center;
-    border: 5px solid rgb(255, 208, 0); 
- width: 80%;
- height: 40%;
- margin: 1px;
- padding: 0%
-
-}
-.box2 p .bunsyou {
-    margin: 0%;
-    font-size: 20px;
-}
-
-.sp img {
-    width: 80%;
-    text-align: center;
-    margin: 0%;
-}
-.sp {
-    text-align: center;
-}
-.spmei p {
+.sp .osirase img {
     text-align: left;
-    font-size: 30px;
-    padding-left: 10%;
+    width: 25%;
 }
-
-.kakakusp {
-    font-size: 30px;
-    text-align: left;
-    padding-left: 10%;
-    color: red;
-}
-
-.btnrui {
-    text-align: center;
-    margin: auto;
-   
-}
-.spbox2 {
-    text-align: center;
-    border: 5px solid rgb(255, 208, 0); 
- width: 100%;
- height: 50%;
-
-margin: auto;
-
-}
-
-/*スマホ*/
-
-.spbtn{
-    width:100%;
-    height:20%;
-    line-height:40px;
-}
-.spbtn a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration: none;
-    background:#FFC200;
-    text-align:center;
-    border:1px solid #FFFFFF;
-    color:#383838;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:16px;
-    -webkit-border-radius:16px;
-    -moz-border-radius:16px;
-    box-shadow:0px 0px 0px 4px #393939 ;
-    transition: all 0.5s ease;
-}
-.spbtn a:hover{
-    background:#FFFFFF;
-    color:#393939;
-    margin-left:0px;
-    margin-top:0px;
-    border:1px solid #FFFFFF;
-    box-shadow:0px 0px 0px 4px #393939 ;
-}
-
-.spmerubtn{
-    width:100%;
-    height:20%;
-    line-height:40px;
-}
-.spmerubtn a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration: none;
-    background:#FFFFFF;
-    text-align:center;
-    border:1px solid #FFFFFF;
-    color:#383838;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:16px;
-    -webkit-border-radius:16px;
-    -moz-border-radius:16px;
-    box-shadow:0px 0px 0px 4px #FF0000 ;
-    transition: all 0.5s ease;
-}
-.spmerubtn a:hover{
-    background:#FF0000;
-    color:#FFFFFF;
-    margin-left:0px;
-    margin-top:0px;
-    border:1px solid #FFFFFF;
-    box-shadow:0px 0px 0px 4px #FF0000 ;
-}
-.spbtnsetumei{
-    width:100%;
-    height:20%;
-    line-height:40px;
-}
-.spbtnsetumei a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration: none;
-    background:#FFFFFF;
-    text-align:center;
-    border:1px solid #FFFFFF;
-    color:#383838;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:16px;
-    -webkit-border-radius:16px;
-    -moz-border-radius:16px;
-    box-shadow:0px 0px 0px 4px #393939 ;
-    transition: all 0.5s ease;
-}
-.spbtnsetumei a:hover{
-    background:#393939;
-    color:#FFFFFF;
-    margin-left:0px;
-    margin-top:0px;
-    border:1px solid #FFFFFF;
-    box-shadow:0px 0px 0px 4px #393939 ;
-}
-
-/*ここまで*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*ぱそこん*/
-
-  .btn{
-    width:600px;
-    height:40px;
-    line-height:40px;
-}
-.btn a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration: none;
-    background:#FFC200;
-    text-align:center;
-    border:1px solid #FFFFFF;
-    color:#383838;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:16px;
-    -webkit-border-radius:16px;
-    -moz-border-radius:16px;
-    box-shadow:0px 0px 0px 4px #393939 ;
-    transition: all 0.5s ease;
-}
-.btn a:hover{
-    background:#FFFFFF;
-    color:#393939;
-    margin-left:0px;
-    margin-top:0px;
-    border:1px solid #FFFFFF;
-    box-shadow:0px 0px 0px 4px #393939 ;
-}
-
-.merubtn{
-    width:600px;
-    height:40px;
-    line-height:40px;
-}
-.merubtn a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration: none;
-    background:#FFFFFF;
-    text-align:center;
-    border:1px solid #FFFFFF;
-    color:#383838;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:16px;
-    -webkit-border-radius:16px;
-    -moz-border-radius:16px;
-    box-shadow:0px 0px 0px 4px #FF0000 ;
-    transition: all 0.5s ease;
-}
-.merubtn a:hover{
-    background:#FF0000;
-    color:#FFFFFF;
-    margin-left:0px;
-    margin-top:0px;
-    border:1px solid #FFFFFF;
-    box-shadow:0px 0px 0px 4px #FF0000 ;
-}
-.btnsetumei{
-    width:600px;
-    height:40px;
-    line-height:40px;
-}
-.btnsetumei a{
-    display:block;
-    width:100%;
-    height:100%;
-    text-decoration: none;
-    background:#FFFFFF;
-    text-align:center;
-    border:1px solid #FFFFFF;
-    color:#383838;
-    font-size:20px;
-    font-weight:bold;
-    border-radius:16px;
-    -webkit-border-radius:16px;
-    -moz-border-radius:16px;
-    box-shadow:0px 0px 0px 4px #393939 ;
-    transition: all 0.5s ease;
-}
-.btnsetumei a:hover{
-    background:#393939;
-    color:#FFFFFF;
-    margin-left:0px;
-    margin-top:0px;
-    border:1px solid #FFFFFF;
-    box-shadow:0px 0px 0px 4px #393939 ;
-}
-/*ここまで*/
